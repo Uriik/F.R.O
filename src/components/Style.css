@@ -4,76 +4,25 @@ html, body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    
+    font-family: 'Raleway', sans-serif;
+}
+h2, p{
+    margin: 0;
+    padding:0;
 }
 
 /* ================================ START HEADER ==================== */
-.PrimaryContainer{
-    height: 100vh;
-    background-color: #121317; 
-}
-
-.whatsapp-link{
-    margin-bottom: 430px;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    bottom: 40px;
-    right: 10px;
-    background-color: #26d366;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
-}
-
-
-.fa-whatsapp{
-    margin-top: 5px;
-}
-
-.BarLogo{
-    background-color: #22242C;
-    height:70px;
-    width: 100vw;
-}
-h1{
-    margin: 0;
-    padding: 0;
-}
-.Logo{
-    padding-top: 15px;
-    margin: 0 auto;
-    height: 50px;
-    width: 100px;
-}
-
-.Phone{
-    margin: 0 auto;
-    margin-top: 10px;
-}
-
-
-.UpMoney{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 5px;
-    font-size: 1.8em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    color:#F7D268;
-    text-align: center;
-}
-.Method{
-    font-size: 0.8em;
+.legend-white{
+    font-size: 1rem;
     margin: 0 auto;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+
     font-weight: lighter;
     color: white;
 }
+
+
+
 
 .SubscribeNow{
     padding-top: 30px;
@@ -85,356 +34,53 @@ h1{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+
     font-weight: bold;
     text-align: center;
     padding: 15px;
     background-color:#F7D268 ;
     height: 20px;
     width: 200px;
-    transform: scale(1);
+    
     animation: pulse-black 2s infinite;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 0 0 0 rgba(247, 210, 104, 0.7);
+    box-sizing: content-box;
+    margin: 30px ;
+
 }
 
 @keyframes pulse-black {
     0% {
-      transform: scale(0.95);
+      
+      box-shadow: 0 0 0 0 rgba(247, 210, 104, 0.7);
+    }
+    
+    70% {
+      
+      box-shadow: 0 0 0 10px rgba(247, 210, 104, 0);
+    }
+    
+    100% {
+      
+      box-shadow: 0 0 0 0 rgba(247, 210, 104, 0);
+    }
+  }
+  @keyframes pulse-black-true {
+    0% {
+      
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
     }
     
     70% {
-      transform: scale(1);
+      
       box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
     }
     
     100% {
-      transform: scale(0.95);
+      
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
   }
-
-/* ================================ END HEADER ==================== */
-
-
-
-
-/* ================================ START SECTION==================== */
-
-
-.SecondContainer{
-    height: 100vh;
-    background-color: #F7D268; 
-}
-
-.Benefits{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.4em;
-}
-.Numbers{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.8em;
-    padding: 5px 15px 5px 15px;
-    margin-top: 20px;
-    
-}
-.TitleCards{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.0em;
-    margin-top: 7px;
-    margin-bottom: 5px;
-    margin-right: 3px;
-    
-}
-.TextCards{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 0.8em;
-    margin: 0 auto;
-    margin-right:3px;
-}
-.CardsWhite{
-    margin-top: 8px;
-    height: 15vh;
-    background-color:white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
-}
-.CardsBlack{
-    margin-top: 8px;
-    height: 15vh;
-    background-color:#121317;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.NumbersBlack{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    color: #F7D268;
-    font-size: 1.8em;
-    padding: 5px 15px 5px 15px;;
-    margin-top: 20px;
-}
-.TitleCardsBlack{
-    color: #F7D268;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.0em;
-    margin-bottom: 5px;
-    margin-right: 3px;
-}
-.TextCardsBlack{
-    color:#F7D268 ;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 0.8em;
-    margin: 0 auto;
-    margin-right: 3px;
-}
-
-
-.Learn{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.ContainerCard{
-    flex-flow: column nowrap;
-}
-
-
-/* ================================ END SECTION==================== */
-
-
-
-
-/* ================================ START THIRDCONTAINER ==================== */
-
-
-.ThirdContainer{
-    height: 100vh;
-    background-color: #E8E8E8;
-    
-}
-
-.ContainerTeam {
-    height: 100vh;
-    width: 100vw;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.WeTeam, p{
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.4em; 
-}
-.NameFunction{
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.1em; 
-    margin: 0;
-}
-.TextFunction{
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 0.8em; 
-    margin-top: 5px;
-    margin: 5px 0 0 0 ;
-    text-align: start;
-}
-
-.text-aling{
-    text-align: right;
-}
-
-
-
-/* ================================ END THIRDCOINTAINER ==================== */
-
-
-
-
-/* ================================ START FOUTCONTAINER ==================== */
-
-
-.FourContainer{
-    height: 100vh;
-    background-color: #121317;
-}
-.ContainerPacket{
-    align-self:center ;
-}
-
-.Already{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 2.0em;
-    text-align: center;
-    color:#F7D268;
-    margin-bottom: 0;
-    margin-top: 10px;
-}
-.GetOpt{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 1.0em;
-    text-transform: uppercase;
-    text-align: center;
-    color:white;
-    margin: 10px 0 15px 0;
-}
-
-.CardPacket{
-    background-color: #F7D268;
-    margin-top: 10px 10px 10px 10px;
-    border-radius: 15px;
-    width: 330px;
-    height: 310px;
-    box-sizing: border-box;
-    margin-top: 5px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.TextPacket{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    margin: 10px 0 0 0;
-    padding: 0;
-}
-
-.TextValorPacket{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2.5em;
-    margin: 0 0 5px 0;
-    padding: 0;
-}
-
-
-.TextBonus{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 0.9em;
-    margin: 10px 0 0 0;
-    padding: 0;
-}
-.ValorPk{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 0.3em;
-}
-
-.ButtonBot{
-    margin-top: 10px;
-    border:solid 1px #DBA200;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #F7D268;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px;
-    background-color:#121317 ;
-    height: 20px;
-    width: 260px;
-}
-
-.ContactBot{
-    margin-top: 10px 10px 10px 10px;
-    width: 330px;
-    height: 90px;
-    margin-top: 15px;
-}
-.ContactText{
-    color: #F7D268;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 0.8em;
-    margin: 5px 0 5px 0;
-    padding: 0;
-}
-.ExContact{
-    color: #F7D268;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 0.8em;
-    margin: 5px 0 5px 0;
-    padding: 0; 
-}
-.FollowMe{
-    margin-top: 10px 10px 10px 10px;
-    width: 330px;
-    height: 10px;
-}
-.TextFollow{
-    color: #F7D268;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 1.0em;
-    margin: 0;
-    padding: 0;
-}
-
-
-.Instagram{
-    width: 30px;
-    height: 30px;
-    margin-left: 25px;  
-}
-
-.Midias{
-    padding-top: 10px;
-
-}
-
-.fa-facebook-square{
-    color:#F7D268;
-    font-size: 2.7em;
-}
-.fa-instagram{
-    color:#F7D268;
-    font-size: 2.7em;
-}
-.fabInst{
-    color:#F7D268;
-    font-size: 3.0em;
-}
-
-/* ================================ END FOURCONTAINER ==================== */
-
-
-
-/* ================================ START FOOTER ==================== */
-
-.FooterBot{
-    height: 10vh;
-    background-color: #1b1c20;
-}
-
-small{
-    color: #F7D268;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 0.8em;
-}
-
-
-
-
-
-
-
-/* ================================ END FOOTER ==================== */
 
 
 /* ============START FLEXBOX============ */
